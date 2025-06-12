@@ -73,11 +73,7 @@ const page = () => {
             name="status"
             control={control}
             render={({ field }) => (
-              <Select.Root
-                defaultValue="OPEN"
-                onValueChange={field.onChange}
-                value={field.value}
-              >
+              <Select.Root onValueChange={field.onChange} value={field.value}>
                 <Select.Trigger />
                 <Select.Content>
                   <Select.Item value="OPEN">Open</Select.Item>
