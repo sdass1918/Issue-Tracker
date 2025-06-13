@@ -50,5 +50,5 @@ AUTH_GOOGLE_SECRET=
 ---
 
 ## 🙋‍♂️ Author
-Sudipta Das
+Sudipta Das  
 Made with 🫀
